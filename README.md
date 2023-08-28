@@ -1,0 +1,1 @@
+Unzip files to one folder and launch home.html in your browser.

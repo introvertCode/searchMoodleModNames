@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+textarea {
+    width: 500px;
+	height: 100px;
+}
+</style>
+<body>
+   
+	<label for="ltinput">Write text to search in</label>
+	<br>
+	<textarea name="longtext" id="ltinput" placeholder="Write long text here"></textarea>
+	<br><br>
+	<label for="kwinput">Write key words to search</label>
+	<br>
+	<textarea name="keywords" id="kwinput" placeholder="Write key words here"></textarea>
+	<br><br>
+	<button onclick="searchKeywordsInText()">Search</button>
+	<br><br>
+	<div id="results"></div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
